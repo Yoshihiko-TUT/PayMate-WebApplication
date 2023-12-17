@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>給与計算</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/add_job.css') }}">
+</head>
+<body>
+    <h1>PayMate</h1>
+    <form method="post" action="/add_job">
+        <h2>Register Event</h2>
+        <input type="text" name="job_name" placeholder="Event Name" required>
+        <br>
+        <input type="text" name="hourly_wage" placeholder="Hourly Wage" required>
+        <br>
+        <input type="submit" name="login-bottun" value="Submit">
+    </form>
+</body>
+</html>

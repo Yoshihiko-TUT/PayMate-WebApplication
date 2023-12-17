@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/register.css') }}">
+</head>
+<body>
+    <div class="SignUp">
+        
+        <h1>PayMate</h1>
+        <form method="post" action="/register">
+            <h2>Sign Up</h2>
+            <input type="text" name="username" placeholder="Username" required>
+            <br>
+            <input type="text" name="email" placeholder="E-Mail" required>
+            <br>
+            <input type="password" name="password" placeholder="Password" required>
+            <br>
+            <input type="password" name="check_password" placeholder="Check Password" required>
+            <input type="submit" name="login-bottun" value="Sign Up">
+        </form>
+        
+    </div>  
+</body>
+</html>

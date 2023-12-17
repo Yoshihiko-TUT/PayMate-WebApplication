@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}">
+    <script src="{{ url_for('static', filename='js/loading.js') }}" defer></script>
+</head>
+</head>
+<body>
+
+    <div id= "login" class="login">
+        
+        <h1>PayMate</h1>
+        <form method="post" action="/login">
+            <h2>Login</h2>
+            <input type="text" name="email" placeholder="E-Mail" required><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="submit" name="login-bottun" value="Login", onclick="login()">
+            <p><a href="./register">Sign Up</a></p>
+        </form>
+        
+    </div>  
+
+    <div id="loading" style="display: none;">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+        <p id="loading-text">計算中</p>
+    </div>
+
+</body>
+
+</html>

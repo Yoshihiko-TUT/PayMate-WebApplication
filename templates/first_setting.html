@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Setting</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/first_setting.css') }}">
+</head>
+<body>
+    <div class="first_setting">
+        <h1>PayMate</h1>
+        <form method="post" action="/first_setting">
+            <h2>First Setting</h2>
+            <h3>➀Google Calenderへログイン</h3>
+            <h3>➁共有したいカレンダーの「設定と共有」を開く</h3>
+            <img src="./../static/image/setting.png" width="600px" height="350px">
+            <h3>➂「特定のユーザーまたはグループと共有する」の項目から「+ユーザーやグループを追加」
+                <br>
+                以下のメールアドレスを「変更および共有の管理権限」で追加
+            </h3><br>
+            <h4>paymate@paymate-386207.iam.gserviceaccount.com</h4>
+            <img src="./../static/image/howTo.png" width="800px" height="300px">
+            <p><a href="/">ログイン</a></p>
+        </form>
+        
+    </div>  
+</body>
+
+</html>

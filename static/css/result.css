@@ -1,0 +1,57 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./../image/water_background.jpg");
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    font-size: 50px;
+}
+
+h2 {
+    position: relative;
+    font-size: 40px;
+}
+
+form {
+    max-width: 600px;
+    margin:  auto;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 450px;
+    height: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: #f5f6f7; */
+    text-align: center;
+    box-shadow: 0 4px 6px #4b4b4b;
+}
+
+ul {
+    padding:0; /*デフォルトの指定解除*/
+    border:3px solid #2a77e0; /*ul全体の境界線を指定*/
+    background: #d3e6ff; /*背景色を指定*/
+    }
+
+li {
+padding:10px; /*liの余白指定*/
+border-bottom: 1px #0a0a0a dotted; /*liの下に境界線を指定*/
+list-style-type: none;
+}
+
+li:last-child {
+border-bottom:none; /*最後のliだけborderを非表示に*/
+}
